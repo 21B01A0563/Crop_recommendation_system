@@ -73,11 +73,6 @@ This project highlights the potential of combining machine learning and web deve
    ```bash
    git clone https://github.com/21B01A0563/Crop_recommendation_system
 
-### Usage
-
-Visit http://localhost:5000 to access the website.
-Input your soil and weather parameters.
-Receive the recommended crop based on your input data.
 
 ### Contact details
 Name:-[amsika2004@gmail.com]
