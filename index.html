@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CROP RECOMMENDATION</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image:url('https://environment.co/wp-content/uploads/sites/4/2022/04/farming-methods-.jpg');
+            width:"10px";
+             
+           
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  width: 90%;
+  max-width: 430px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  color: #0C134F; 
+          
+            
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+       
+            
+             input[type="text"] {
+            width: 100%;
+            height : 30px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+            width:90%;
+            height:35px;
+        }
+       
+
+    </style>
+</head>
+<body>
+<center>
+   
+    <form action="/predict" method="post">
+         <font style="font-family:Arial, sans-serif;color:2A184E;"><h1><b>CROP<br>RECOMMENDATION</b></h1></font>
+        <label style="color:#4d0000;" for="nitrogen">Nitrogen in parts per million(ppm):</label>
+        <input type="text" style="border-color:#4d0000;border-radius:15px;" placeholder="Nitrogen" id="nitrogen" name="nitrogen" required><br><br>
+
+        <label style="color:#4d0000;" for="phosphorous">Phosphorous in parts per million(ppm):</label>
+        <input type="text" style="border-color:#000000;border-radius:15px;"placeholder="Phosphorous"  id="phosphorous" name="phosphorous" required><br><br>
+
+        <label style="color:#4d0000;" for="potassium">Potassium in parts per million(ppm):</label>
+        <input type="text" style="border-color:#000000a1;border-radius:15px;" placeholder="Potassium" id="potassium" name="potassium" required><br><br>
+
+        <label style="color:#4d0000;" for="temperature">Temperature in celsius:</label>
+        <input type="text" style="border-color:#000000a1;border-radius:15px;" placeholder="Temperature"id="temperature" name="temperature" required><br><br>
+
+        <label style="color:#4d0000;" for="humidity">Humidity in percentage(%):</label>
+        <input type="text"style="border-color:#000000a1;border-radius:15px;" placeholder="Humidity" id="humidity" name="humidity" required><br><br>
+
+        <label style="color:#4d0000;" for="ph">pH(0-14):</label>
+        <input type="text"style="border-color:#000000a1;border-radius:15px;" placeholder="Ph" id="ph" name="ph" required><br><br>
+
+        <label style="color:#4d0000;" for="rainfall">Rainfall in millimeters(mm):</label>
+        <input type="text" style="border-color:#000000a1;border-radius:15px;" id="rainfall" placeholder="Rainfall" name="rainfall" required><br><br>
+
+        <input style="border-color:blue;border-radius:15px;" type="submit" value="Predict">
+    </form>
+</center>
+</body>
+</html>
