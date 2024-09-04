@@ -61,9 +61,6 @@ The website significantly aids farmers in making informed decisions, which can e
 ### Conclusion
 This project highlights the potential of combining machine learning and web development to tackle real-world issues and support the agricultural community. By delivering actionable insights through an accessible platform, we aim to contribute to more sustainable and profitable farming practices.
 
-### Demonstration
-(If applicable, a live demo of the website can be provided upon request.)
-
 ### Installation
 
 **Prerequisites**  
@@ -83,8 +80,8 @@ Input your soil and weather parameters.
 Receive the recommended crop based on your input data.
 
 ### Contact details
-Name:-[Link Text](amsika2004@gmail.com)
-Project link:[Link Text](https://github.com/21B01A0563/Crop_recommendation_system)
+Name:-[amsika2004@gmail.com]
+Project link:[https://github.com/21B01A0563/Crop_recommendation_system]
 
 
 
